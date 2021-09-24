@@ -1,34 +1,30 @@
-/* highlight comment and press command and slash and you get it */
-/*this is a comment*/
 
-h1{
-  font-size: 30px;
+html{
+  background-color: #CDCBCD;
 }
-
-
 #top h1{
-  color:green;
-  border:solid 1px white;
+  color:#994BB5;
+  font-family:Rokkitt;
+  font-size:36px;
 }
 
-#input h1{
-  color:orange;
+#pronouns h4{
+  color:#B480C6;
+  font-family: Rokkitt;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
 }
-#top{
-  background-color: yellow;
-  font-family: helvetica;
+
+#about h4{
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
 }
-  ul{
-    color:#fc03b1;
-    font-family: arial;
-    font-weight: 600;
-  }
 
-  img{
-    width:10vw;
-    margin:10px;
-  }
+#goals h4{
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
 
-  form{
-    margin-left:20px;
-  }
+\
