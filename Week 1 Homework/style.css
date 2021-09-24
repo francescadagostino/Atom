@@ -1,0 +1,30 @@
+
+html{
+  background-color: #CDCBCD;
+}
+#top h1{
+  color:#994BB5;
+  font-family:Rokkitt;
+  font-size:36px;
+}
+
+#pronouns h4{
+  color:#B480C6;
+  font-family: Rokkitt;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+#about h4{
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+#goals h4{
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+\
