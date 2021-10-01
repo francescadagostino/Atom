@@ -4,25 +4,46 @@ html{
 }
 #top h1{
   color:#994BB5;
-  font-family:Rokkitt;
+  font-family:"Rokkitt";
   font-size:36px;
+  margin-left: 5px;
+
 }
 
 #pronouns h4{
   color:#B480C6;
-  font-family: Rokkitt;
+  font-family: "Rokkitt";
   font-size: 24px;
-  border:solid 5px #E3C2EE;
+  border:solid 3px #E3C2EE;
+  margin-left:10px;
 }
 
 #about h4{
   color: #B480C6;
   font-size: 24px;
-  border:solid 5px #E3C2EE;
+  border:solid 3px #E3C2EE;
+  font-family: "Rokkitt";
+  margin-left:10px;
 }
 
 #goals h4{
   color: #B480C6;
   font-size: 24px;
-  border:solid 5px #E3C2EE;
+  border:solid 3px #E3C2EE;
+  font-family: "Rokkitt";
+  margin-left:10px;
+}
+
+p{
+  font-family: "Asap";
+  margin-left: 20px;
+  line-height: 2px;
+}
+
+#link a{
+  color: #B480C6;
+}
+
+#link p{
+  padding-top: 15px;
 }
