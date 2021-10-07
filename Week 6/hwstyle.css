@@ -1,0 +1,48 @@
+html{
+  background-color: pink;
+}
+
+#mybutton{
+  background-color: #fcf91c;
+  font-size: 35px;
+}
+
+#mybutton2{
+  background-color: #db0000;
+    font-size: 35px;
+}
+
+#mybutton3{
+  background-color: #4b42cf;
+    font-size: 35px;
+}
+
+p{
+  margin-left: 4vw;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+h1{
+  font-size: 40px;
+  font-family: "Montserrat";
+  margin-left: 2vw;
+  border:solid 2px #fa7dd2;
+}
+
+h2{
+  font-family: "Montserrat";
+  margin-left: 4vw;
+}
+
+
+#buttons{
+  font-family: "Montserrat";
+  margin-left:25vw;
+}
+
+img{
+  width: 30vw;
+  positino: relative;
+  margin-left: 30vw;
+  margin-top: 5vw;
+}

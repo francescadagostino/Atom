@@ -1,0 +1,52 @@
+<!DOCTYPE  html>
+<html lang = "en">
+
+<head>
+    <title>Positivity Website</title>
+    <link rel="stylesheet" href="hwstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  </head>
+
+  <body>
+    <section id="one">
+      <h1 id="herotext1">Emotions are Strange Sometimes!</h1>
+      </section>
+    <section id="mood">
+      <h2>What's your Mood Today?</h2>
+      <p> We have different moods all the time! Sometimes we are frustrated and othertimes we're happy. Get in touch with your emotions!</p>
+      </section>
+
+
+    <section id="buttons">
+      <button id="mybutton"> Feeling Glad?</button>
+      <button id="mybutton2"> Feeling Mad? </button>
+      <button id="mybutton3"> Feeling Sad? </button>
+      </section>
+
+    <script>
+      console.log("javascript working");
+      document.getElementById("mybutton").addEventListener("click", buttonClicked1);
+      document.getElementById("mybutton2").addEventListener("click", buttonClicked2);
+      document.getElementById("mybutton3").addEventListener("click", buttonClicked3);
+
+      function buttonClicked1(){
+        alert("It's so great you're feeling happy! We hope your day continues going great!");
+        document.getElementById("herotext1").innerHTML = "Your Emotions are Valid!";}
+
+      function buttonClicked2(){
+        alert("We're sorry you're feeling upset. We hope you are able to take time for yourself today!");
+        document.getElementById("herotext1").innerHTML = "Your Emotions are Valid!";}
+
+    function buttonClicked3(){
+        alert("It's no fun feeling sad! We hope you are able to do something that brings you joy today!");
+        document.getElementById("herotext1").innerHTML = "Your Emotions are Valid!";}
+
+
+
+    </script>
+
+    <section id="photo">
+      <img alt="smiley faces" src="fe-happiness-banner.jpg" id="smiley">
+    </section>
+    </body>
+    </html>
