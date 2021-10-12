@@ -13,6 +13,7 @@ button{
   margin-top: 1vh;
   background-color: black;
   color: #f7ebff;
+  font-family:"DM Serif Display";
 }
 
 button:hover{
@@ -25,4 +26,5 @@ button:active{
 
 h1{
   color: #f7ebff;
+  font-family:"DM Serif Display";
 }
