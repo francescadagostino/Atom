@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Quote Machine </title>
+  <link rel="stylesheet" href="style.css"
+  </head>
+
+<body>
+  <section>
+  <h1 id="qtext"> Welcome to the quote machine, click the button to get a quote.</h1>
+  <button id="newquote"> New Quote </button>
+  </section>
+
+  <script>
+   const quotes = ["Don't let the fear of striking out keep you from playing the game.", "Shoot for the moon and even if you miss you'll land among the stars.", "Be yourself. Everyone else is already taken", "If at first you don't succeed try again!", "When you have a dream, you've got to grab it and never let it go.", "Keep your face always toward the sunshine, and shadows will fall behind you.", "Success is not final, failure is not fatal: it is courage to continue that counts.", "Spread love everywhere you go."];
+   let quotecount = 0;
+
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+    function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("qtext").innerHTML = (quotes[quotecount]);
+      if(quotecount>6){
+        quotecount = 0;
+      }else{
+
+      quotecount++;
+    }
+  }
+  </script>
+</body>
+
+</html>
