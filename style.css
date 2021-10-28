@@ -1,60 +1,93 @@
+#main{
+  display: flex;
+  margin: 5vh 10vw 0 10vh;
+  font-family: "Cinzel";
+}
 
 html{
-  background-color: #CDCBCD;
+  background-color: #F4FFFE;
 }
-#top h1{
-  color:#994BB5;
-  font-family:"Rokkitt";
-  font-size:36px;
-  margin-left: 5px;
-
-}
-
-#pronouns h4{
-  color:#B480C6;
-  font-family: "Rokkitt";
-  font-size: 24px;
-  border:solid 3px #E3C2EE;
-  margin-left:10px;
+#week{
+  display: flex;
+  margin: 0vh 5vw 0 5vh;
+  padding-top: 80px;
+  border-top: none;
+  margin-left: 40vw;
 }
 
-#about h4{
-  color: #B480C6;
-  font-size: 24px;
-  border:solid 3px #E3C2EE;
-  font-family: "Rokkitt";
-  margin-left:10px;
-}
-
-#goals h4{
-  color: #B480C6;
-  font-size: 24px;
-  border:solid 3px #E3C2EE;
-  font-family: "Rokkitt";
-  margin-left:10px;
-}
-
-p{
-  font-family: "Asap";
-  margin-left: 20px;
-  line-height: 2px;
-  font-size: 16px;
+.day{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid black;
+  background-color: #037D6F;
+  color: white;
 
 }
 
-#link a{
-  color: #B480C6;
-  font-family: "Rokkitt";
-  margin-left: -5px;
+h4{
+  font-family: "Source Serif Pro";
 }
 
-#link p{
-  padding-top: 15px;
+#dayheader{
+  color: #6CAD8E;
+  font-size: 27px;
+  margin-left: -15vw;
+  margin-top: -10vh;
+}
+
+h3, h4{
+  text-align: center;
+  margin-left: -16vw;
+}
+
+h3{
+  color: #075932;
+  font-size: 22px;
+  margin-bottom: 3vh;
+  font-family: "Cinzel";
+}
+
+#musicvideo{
+  margin-left: -26vw;
+}
+#questions{
+  margin-left: 10vw;
+  font-family: "Cinzel";
+}
+#mondayday, #tuesdayday, #wednesdayday, #thursdayday, #fridayday, #saturdayday{
+display: none;
+}
+
+#video{
+  margin-top: 1vh;
+  margin-left: 18vw;
+}
+.dayday {
+  flex-grow: 1;
+  width: auto;
+  max-width: 50%;
+}
+
+form{
+  margin-left: 31vw;
+}
+h2{
+  margin-top: 20px;
+  padding-bottom: 0;
   font-size: 20px;
+  text-align: center;
+  font-family: "Cinzel";
 }
 
-#sentences ol{
-  font-family: "Asap";
-  font-size: 16px;
-  margin-top: -10px;
+h1{
+  font-family: "Cinzel Decorative";
+  margin-top: 5vh;
+  margin-left: 32vw;
+  color: #2A968F;
+  font-size: 35px;
+}
+
+button{
+  margin-top: 3vh;
+  margin-left: 34vw;
 }
