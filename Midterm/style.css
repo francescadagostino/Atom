@@ -1,6 +1,6 @@
 #main{
   display: flex;
-  margin: 5vh 10vw 0 10vw;
+  margin: 5vh 10vw 0 10vh;
   font-family: "Cinzel";
 }
 
@@ -8,27 +8,20 @@ html{
   background-color: #F4FFFE;
 }
 #week{
-  display: block;
-  margin: auto;
+  display: flex;
+  margin: 0vh 5vw 0 5vh;
   padding-top: 80px;
-  margin-left: 43.1vw;
-  margin-bottom: 1vh;
+  border-top: none;
+  margin-left: 40vw;
 }
 
 .day{
   flex-grow: 1;
   width: auto;
-  border: 0.5px solid black;
-  border-top: none;
-  border-bottom: none;
+  border: 1px solid black;
   background-color: #037D6F;
   color: white;
 
-}
-
-#quote{
-margin-left: -15vw;
-font-size: 15px;
 }
 
 h4{
@@ -36,12 +29,10 @@ h4{
 }
 
 #dayheader{
-  display: block;
-  margin: auto;
   color: #6CAD8E;
   font-size: 27px;
   margin-left: -15vw;
-  margin-top: -9vh;
+  margin-top: -10vh;
 }
 
 h3, h4{
@@ -52,19 +43,15 @@ h3, h4{
 h3{
   color: #075932;
   font-size: 22px;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
   font-family: "Cinzel";
 }
 
 #musicvideo{
-  display: block;
-  margin-left: -0.75vw;
+  margin-left: -26vw;
 }
-
 #questions{
-  display: block;
-  margin: auto;
-  margin-left: 15vw;
+  margin-left: 10vw;
   font-family: "Cinzel";
 }
 #mondayday, #tuesdayday, #wednesdayday, #thursdayday, #fridayday, #saturdayday{
@@ -73,8 +60,7 @@ display: none;
 
 #video{
   margin-top: 1vh;
-  display: block;
-  margin-left: 40.3vw;
+  margin-left: 18vw;
 }
 .dayday {
   flex-grow: 1;
@@ -83,7 +69,7 @@ display: none;
 }
 
 form{
-  margin-left: 30vw;
+  margin-left: 31vw;
 }
 h2{
   margin-top: 20px;
@@ -95,13 +81,13 @@ h2{
 
 h1{
   font-family: "Cinzel Decorative";
-  margin-top: 2vh;
-  margin-left: 35vw;
+  margin-top: 5vh;
+  margin-left: 32vw;
   color: #2A968F;
   font-size: 35px;
 }
 
 button{
   margin-top: 3vh;
-  margin-left: 32.5vw;
+  margin-left: 34vw;
 }

@@ -16,7 +16,6 @@ document.getElementById('sunday').classList.toggle('active');
 function setActive(e){
 
 
-
   preday = document.getElementsByClassName("active")[0].id;
   console.log("preday " +preday);
   if(preday != undefined){
