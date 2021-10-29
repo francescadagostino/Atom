@@ -28,7 +28,6 @@ function setActive(e){
     e.target.parentNode.classList.toggle("active");
   }else{
 
-
     e.target.classList.toggle("active");
   }
 
@@ -71,4 +70,10 @@ function setActive(e){
     videoId.src= videos[6];
   }
 
+}
+
+document.getElementById("submit").addEventListener("click", setActiveButton);
+function setActiveButton(e){
+  document.getElementsByTagName('input')[0].value ="";
+  document.getElementsByTagName('input')[1].value ="";
 }
