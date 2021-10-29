@@ -25,7 +25,7 @@ html{
   color: white;
 }
 
-#quote{
+#quote, #quote1, #quote2, #quote3, #quote4, #quote5, #quote6{
 margin-left: -15vw;
 font-size: 15px;
 }
@@ -34,7 +34,7 @@ h4{
   font-family: "Source Serif Pro";
 }
 
-#dayheader{
+#dayheader, #dayheader1, #dayheader2, #dayheader3, #dayheader4, #dayheader5, #dayheader6{
   display: block;
   margin: auto;
   color: #6CAD8E;
@@ -74,6 +74,9 @@ display: none;
   margin-top: 1vh;
   display: block;
   margin-left: 40.3vw;
+  height: auto;
+  width: auto;
+
 }
 .dayday {
   flex-grow: 1;
