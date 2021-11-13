@@ -1,0 +1,75 @@
+@media screen and (min-width: 300px){
+  #photo{
+    display:block;
+  }
+
+}
+
+@media screen and (max-width: 301px){
+  #photo{
+    display:none;
+  }
+
+}
+
+html{
+  background-color: #CDCBCD;
+}
+#top h1{
+  color:#994BB5;
+  font-family:Rokkitt;
+  font-size:36px;
+}
+
+#pronouns h4{
+  color:#B480C6;
+  font-family: Rokkitt;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+#about h4{
+  margin-top:  1vh;
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+#goals h4{
+  color: #B480C6;
+  font-size: 24px;
+  border:solid 5px #E3C2EE;
+}
+
+img{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+/*#photo{
+  text-align: center;
+  margin: auto;
+}*/
+
+#all{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
