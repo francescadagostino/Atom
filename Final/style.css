@@ -1,0 +1,54 @@
+
+
+html{
+  background-color: pink ;
+}
+#advertisements{
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+  margin-left: 43.1vw;
+  margin-bottom: 1vh;
+}
+
+h2{
+  margin-top: 20px;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: left;
+  font-family: "arial";
+}
+
+
+.ad{
+  flex-grow: 1;
+  width: auto;
+  border: 0.5px solid black;
+  border-top: none;
+  border-bottom: none;
+  background-color: #037D6F;
+  color: white;
+}
+
+
+#dayheader, #dayheader1, #dayheader2, #dayheader3{
+  display: block;
+  margin: auto;
+  font-size: 27px;
+  color: black;
+  margin-left: -15vw;
+  margin-top: -9vh;
+}
+
+
+
+#questions{
+  display: block;
+  margin: auto;
+  margin-left: 15vw;
+  font-family: "arial";
+}
+
+#catandjackad, #thenewyorkerad, #calphalonad{
+display: none;
+}
