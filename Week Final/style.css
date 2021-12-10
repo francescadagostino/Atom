@@ -1,10 +1,148 @@
-html{
-  background-color: pink;
+/* TABS BAR SETTINGS */
+nav a{
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 50px;
+  text-decoration: underline;
+  color: black;
 }
 
 #tabs{
-  font: arial;
-  font-size: 25px;
-  border-style: 1px;
-  background-color: pink;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+nav #homecolor:hover{
+  color:#41cff2;
+}
+
+nav #catcolor:hover{
+  color:#4082f5;
+}
+
+nav #newcolor:hover{
+  color: #7141f2;
+}
+
+nav #gocolor:hover{
+  color:#ef41f2;
+}
+
+/* VIDEO */
+video{
+  height: 30vh;
+  width: auto;
+  margin-left: 35vw;
+}
+
+/* HEADLINES */
+#header{
+  border:solid 10px black;
+}
+
+#header h1{
+  font-family: "Bebas Neue";
+  font-size: 50px;
+}
+
+#header h3{
+  margin-top: -5vh;
+  font-family: "Nunito";
+  margin-bottom: 3vh;
+}
+
+#title h2{
+  font-family: "Nunito";
+  font-size: 35px;
+  text-align: center;
+}
+
+
+/* BACKGROUND COLOR for pages  */
+#home h2{
+  color: white;
+  border: solid 2px #41cff2;
+  background-color: #41cff2;
+}
+
+#catandjack h2{
+  color: white;
+  border: solid 2px #4082f5;
+  background-color: #4082f5;
+}
+
+#thenewyorker h2{
+  color: white;
+  border: solid 2px #7141f2;
+  background-color: #7141f2
+}
+
+#gopuff h2{
+  color: white;
+  border: solid 2px #ef41f2;
+  background-color: #ef41f2;
+}
+
+/* FONT COLORS/SIZES */
+#home h3{
+  font-family: "Nunito";
+  color: #41cff2;
+}
+
+#catandjack h3{
+  font-family: "Nunito";
+  color: #4082f5;
+}
+
+#thenewyorker h3{
+  font-family: "Nunito";
+  color: #7141f2;
+}
+
+#gopuff h3{
+  font-family: "Nunito";
+  color: #ef41f2;
+}
+
+#francesca{
+  font-size:24px;
+  text-align: center;
+  color: #41cff2;
+  font-family: "Nunito";
+}
+
+/* BACKGROUND COLORS */
+#home, #thenewyorker, #catandjack, #gopuff{
+  background-color: ;
+}
+p{
+  font-family: "arial"
+}
+
+
+/* IMAGE SETTINGS */
+img{
+  width: 12vw;
+  margin: 3vw;;
+}
+
+img:hover{
+  width: 30vw;
+}
+
+#images{
+  margin-left:22vw;
+}
+
+/* QUESTIONS LAYOUT */
+#questions{
+  font-size: 15px;
+  font-family: "arial";
+  text-align:center;
+  margin-top: 7vh;
+}
+
+#submit{
+  margin-top: 3vh;
 }
