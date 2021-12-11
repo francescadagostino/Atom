@@ -1,4 +1,41 @@
 /* TABS BAR SETTINGS */
+@media screen and (min-width: 300px){
+  video{
+    display:block;
+  }
+
+}
+
+@media screen and (max-width: 301px){
+  video{
+    display:none;
+  }
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#all{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
 nav a{
   font-family: "Bebas Neue";
   font-size: 30px;
@@ -33,7 +70,8 @@ nav #gocolor:hover{
 video{
   height: 30vh;
   width: auto;
-  margin-left: 35vw;
+  /* margin-left: 35vw; */
+  margin:auto;
 }
 
 /* HEADLINES */
@@ -117,7 +155,9 @@ video{
   background-color: ;
 }
 p{
-  font-family: "arial"
+  font-family: "arial";
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 
