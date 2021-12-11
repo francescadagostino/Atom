@@ -6,13 +6,6 @@
 
 }
 
-@media screen and (max-width: 301px){
-  video{
-    display:none;
-  }
-
-}
-
 
 .grid-container {
   display: grid;
@@ -26,7 +19,7 @@
   text-align: center;
 }
 
-#all{
+/* #en{
   display:flex;
   flex-direction: column;
   text-align: center;
@@ -34,7 +27,7 @@
   margin-top: 30px;
   margin-left: 5vw;
   margin-right: 5vw;
-}
+} */
 
 nav a{
   font-family: "Bebas Neue";
@@ -151,9 +144,10 @@ video{
 }
 
 /* BACKGROUND COLORS */
-#home, #thenewyorker, #catandjack, #gopuff{
+/* #home, #thenewyorker, #catandjack, #gopuff{
   background-color: ;
-}
+} */
+
 p{
   font-family: "arial";
   margin-left: 5vw;
@@ -185,4 +179,18 @@ img:hover{
 
 #submit{
   margin-top: 3vh;
+}
+
+
+@media screen and (max-width: 380px){
+  video{
+    display:none;
+
+  }
+
+#images {
+  display:flex;
+  flex-direction: column;
+  background-color: red;
+}
 }
