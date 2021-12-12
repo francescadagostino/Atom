@@ -1,13 +1,7 @@
-/* TABS BAR SETTINGS */
-
-
+/* Changing screen sizes */
 @media screen and (min-width: 375px){
   #gif{
     display:block;
-  }
-
-  #home{
-    display: center;
   }
 }
 
@@ -19,35 +13,6 @@
   }
 
 }
-
-/* #images {
-  display:flex;
-  flex-direction: column;
-  background-color: red;
-}
-} */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 5px;
-}
-
-.grid-item {
-  padding: 5px;
-  font-size: 30px;
-  text-align: center;
-}
-
-/* #en{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-left: 5vw;
-  margin-right: 5vw;
-} */
 
 nav a{
   font-family: "Bebas Neue";
@@ -82,9 +47,7 @@ nav #gocolor:hover{
 /* VIDEO */
 #gif{
   width:auto;
-  /* margin-left: 35vw; */
   margin:auto;
-  /* margin-left: 29%; */
 }
 
 .center {
@@ -117,7 +80,7 @@ nav #gocolor:hover{
 }
 
 
-/* BACKGROUND COLOR for pages  */
+/* BACKGROUNDISH COLORS  */
 #home h2{
   color: white;
   border: solid 2px #41cff2;
@@ -170,11 +133,14 @@ nav #gocolor:hover{
   font-family: "Nunito";
 }
 
-/* BACKGROUND COLORS */
-/* #home, #thenewyorker, #catandjack, #gopuff{
-  background-color: ;
-} */
+#fran{
+  font-size:24px;
+  text-align: center;
+  color: #41cff2;
+  font-family: "Nunito";
+}
 
+/* Text */
 p{
   font-family: "arial";
   margin-left: 5vw;
@@ -208,17 +174,3 @@ img:hover{
 #submit{
   margin-top: 3vh;
 }
-
-
-/* @media screen and (max-width: 380px){
-  video{
-    display:none;
-
-  }
-
-#images {
-  display:flex;
-  flex-direction: column;
-  background-color: red;
-}
-} */
